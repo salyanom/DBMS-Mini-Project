@@ -24,6 +24,7 @@ Run the entire script to create the car_dealership database and populate it with
 
 Step 2: Install Dependencies
 Open your terminal/command prompt in the project folder and run:
+
 pip install -r requirements.txt
 
 Step 3: Configure Credentials
@@ -32,6 +33,7 @@ Update the YOUR_MYSQL_PASSWORD variable (around line 15) with your local MySQL r
 
 Step 4: Launch the App
 Run the following command in your terminal:
+
 python -m streamlit run app.py
 
 (Note: Use python3 -m streamlit run app.py on Mac/Linux if needed)
